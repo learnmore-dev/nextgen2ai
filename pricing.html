@@ -2,249 +2,362 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>NextGen2AI</title>
+<title>NextGen2AI - Pricing</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="" />
-<meta name="author" content="http://webthemez.com" />
-<!-- css -->
+<meta name="description" content="NextGen2AI Pricing Plans" />
+<meta name="author" content="NextGen2AI" />
+
+<!-- CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet" />
 <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
 <link href="css/jcarousel.css" rel="stylesheet" />
 <link href="css/flexslider.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet" />
- 
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+/* Ribbon for most popular plan */
+.ribbon {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #ff4b2b;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    z-index: 10;
+}
+
+/* Hover scale effect */
+.hover-scale:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Pricing box shadow */
+.pricing-box-item {
+    position: relative;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Tooltip info icon */
+.pricing-container span[title] {
+    cursor: help;
+    color: #ff4b2b;
+    font-weight: bold;
+}
+
+/* Monthly/Yearly toggle */
+.toggle-pricing {
+    margin-bottom: 20px;
+    text-align: center;
+}
+</style>
 
 </head>
 <body>
 <div id="wrapper">
-	<!-- start header -->
-		<header>
-			<section class="contactInfo">
-	<div class="container"> 
-                   
 
-                    <div class="col-md-12"> 
-                            <div class="contact-area">
-                                <ul>
-                                    <li><i class="fa fa-phone-square"></i>+91-9337021430</li>
-                                    <li><i class="fa fa-envelope-o"></i>NextGen2AI.com</li>
-                                </ul>
-                            </div> 
-                    </div> 
-            </div>
-		</section>	
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-Delight=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-					<a class="navbar-brand" style="margin-top: 10px;" "href="index.html"><img src="img/1 (2).png" alt="logo"/></a>
-                </div>
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li> 
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li class="active"><a href="pricing.html">Pricing</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+<!-- start header -->
+<header>
+    <section class="contactInfo">
+        <div class="container"> 
+            <div class="col-md-12"> 
+                <div class="contact-area">
+                    <ul>
+                        <li><i class="fa fa-phone-square"></i> +91-9538431415</li>
+                        <li><i class="fa fa-envelope"></i> office@nextgen2ai.com</li>
                     </ul>
+                </div> 
+            </div> 
+        </div>
+    </section>  
+
+    <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" style="margin-top: 10px;" href="index.html"><img src="img/1 (2).png" alt="logo"/></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li class="active"><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- end header -->
+
+<section id="inner-headline">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="pageTitle">Pricing</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="content">
+<div class="container">
+
+    <div class="toggle-pricing">
+        <div class="toggle-pricing">
+  <span><strong>Yearly</strong></span>
+  <label class="switch">
+    <input type="checkbox" id="pricingToggle">
+    <span class="slider round"></span>
+  </label>
+  <span><strong>Monthly</strong></span>
+</div>
+
+    </div>
+
+    <div class="row">
+        <!-- Basic Plan -->
+        <div class="col-md-3">
+            <div class="pricing-box-item hover-scale">
+                <div class="pricing-heading">
+                    <h3><strong>Basic</strong></h3>
+                </div>
+                <div class="pricing-terms">
+                    <h6 class="price" data-year="₹1500.00 / Year" data-month="₹150.00 / Month">₹1500.00 / Year</h6>
+                </div>
+                <div class="pricing-container">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Responsive Design <span title="Works on all devices">&#9432;</span></li>
+                        <li><i class="fa fa-check"></i> Bootstrap Design</li>
+                        <li><i class="fa fa-check"></i> Unlimited Support</li>
+                        <li><i class="fa fa-check"></i> Free Trial version</li>
+                        <li><i class="fa fa-check"></i> Application Development</li>
+                    </ul>
+                </div>
+                <div class="pricing-action">
+                    <a href="contact.html" class="btn btn-medium btn-theme"><i class="fa fa-bolt"></i> Talk to Us</a>
                 </div>
             </div>
         </div>
-	</header><!-- end header -->
-	<section id="inner-headline">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<h2 class="pageTitle">Pricing</h2>
-			</div>
-		</div>
-	</div>
-	</section>
-	<section id="content">
-	<div class="container">	 
-		<!-- end divider -->
-		<div class="row">
-			<div class="col-lg-12">
-				<h4>Our best plans</h4>
-			</div>
-			<div class="col-md-3">
-				<div class="pricing-box-item">
-					<div class="pricing-heading">
-						<h3><strong>Basic</strong></h3>
-					</div>
-					<div class="pricing-terms">
-						<h6>&#36;1500.00 / Year</h6>
-					</div>
-					<div class="pricing-container">
-						<ul>
-							<li><i class="icon-ok"></i> Responsive Design</li>
-							<li><i class="icon-ok"></i> Bootstrap Design</li>
-							<li><i class="icon-ok"></i> Unlimited Support</li>
-							<li><i class="icon-ok"></i> Free Trial version</li>
-							<li><i class="icon-ok"></i> Application Development</li>
-						</ul>
-					</div>
-					<div class="pricing-action">
-						<a href="#" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Get Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="pricing-box-item">
-					<div class="pricing-heading">
-						<h3><strong>Standard</strong></h3>
-					</div>
-					<div class="pricing-terms">
-						<h6>&#36;2000.00 / Year</h6>
-					</div>
-					<div class="pricing-container">
-						<ul>
-							<li><i class="icon-ok"></i> Responsive Design</li>
-							<li><i class="icon-ok"></i> Web Development</li>
-							<li><i class="icon-ok"></i> Unlimited Support</li>
-							<li><i class="icon-ok"></i> Free Trial version</li>
-							<li><i class="icon-ok"></i> Application  Development </li>
-						</ul>
-					</div>
-					<div class="pricing-action">
-						<a href="#" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Get Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="pricing-box-item activeItem">
-					<div class="pricing-heading">
-						<h3><strong>Advanced</strong></h3>
-					</div>
-					<div class="pricing-terms">
-						<h6>&#36;2500.00 / Year</h6>
-					</div>
-					<div class="pricing-container">
-						<ul>
-							<li><i class="icon-ok"></i> Responsive Design</li>
-							<li><i class="icon-ok"></i>Website Development </li>
-							<li><i class="icon-ok"></i> Unlimited Support</li>
-							<li><i class="icon-ok"></i> Free Trial version</li>
-							<li><i class="icon-ok"></i> Application Development</li>
-						</ul>
-					</div>
-					<div class="pricing-action">
-						<a href="#" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Get Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="pricing-box-item">
-					<div class="pricing-heading">
-						<h3><strong>Mighty</strong></h3>
-					</div>
-					<div class="pricing-terms">
-						<h6>&#36;3000.00 / Year</h6>
-					</div>
-					<div class="pricing-container">
-						<ul>
-							<li><i class="icon-ok"></i> Responsive Design</li>
-							<li><i class="icon-ok"></i> Website Development</li>
-							<li><i class="icon-ok"></i> Unlimited Support</li>
-							<li><i class="icon-ok"></i> Free Trial version</li>
-							<li><i class="icon-ok"></i> Application Development </li>
-						</ul>
-					</div>
-					<div class="pricing-action">
-						<a href="#" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Get Now</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</section>
-	<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<div class="widget">
-					<h5 class="widgetheading">Our Contact</h5>
-					<address>
-					<strong>nextGen2AI</strong><br>
-					No-10 Aviansh Building Kundalahalli Gate,
-                 <br>Vartur Marathahalli main road, Bangalore-560037.</address>
-					<p>
-						<i class="icon-phone"></i> +91-9337021430 <br>
-						<i class="icon-envelope-alt"></i> nextgen2AI
-					</p>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="widget">
-					<h5 class="widgetheading">Quick Links</h5>
-					<ul class="link-list">
-						<li><a href="#">Latest Events</a></li>
-						<li><a href="#">Terms and conditions</a></li>
-						<li><a href="#">Privacy policy</a></li>
-						<li><a href="#">Career</a></li>
-						<li><a href="#">Contact us</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="widget">
-					<h5 class="widgetheading">Latest posts</h5>
-					<ul class="link-list">
-						<li><a href="https://economictimes.indiatimes.com/news/elections/lok-sabha/india/elon-musks-x-takes-down-political-posts-of-aap-jagan-reddys-party-on-ec-order-but-says-we-dont-agree/articleshow/109366283.cms">Elon Musk's X takes down political posts of AAP, Jagan Reddy's party on EC order, but says we don't agree</a></li>
-						<li><a href="https://cleartax.in/s/senior-citizen-savings-scheme">Senior Citizen Savings Scheme (SCSS) - Interest Rate 2024, Tax Benefits, Eligibility, Rules & Opening SCSS Account</a></li>
-						<li><a href="https://www.news18.com/videos/vande-bharat-express-how-vande-bharat-is-taking-on-domestic-airlines-on-certain-routes-n18v-8637023.html ">Vande Bharat Express | How Vande Bharat Is Taking On Domestic Airlines On Certain Routes | N18V</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md-3">
-					<div class="widget">
-					<h5 class="widgetheading">Recent News</h5>
-					<ul class="link-list">
-						<li><a href="https://economictimes.indiatimes.com/tech/technology/meta-debuts-new-generation-of-ai-chip/articleshow/109203810.cms">Meta debuts new generation of AI chip</a></li>
-						<li><a href="https://www.artificialintelligence-news.com/2024/04/10/openai-gpt-4-turbo-with-vision-api-generally-available/">OpenAI makes GPT-4 Turbo with Vision API generally available</a></li>
-						<li><a href="https://www.artificialintelligence-news.com/2024/04/05/microsoft-china-plans-disrupt-elections-ai-generated-disinformation/">Microsoft: China plans to disrupt elections with AI-generated disinformation</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="sub-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="copyright">
-						<p>
-							<span>&copy;  All right reserved. By NextGen2AI </a>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	</footer>
+
+        <!-- Standard Plan -->
+        <div class="col-md-3">
+            <div class="pricing-box-item hover-scale">
+                <div class="pricing-heading">
+                    <h3><strong>Standard</strong></h3>
+                </div>
+                <div class="pricing-terms">
+                    <h6 class="price" data-year="₹2000.00 / Year" data-month="₹200.00 / Month">₹2000.00 / Year</h6>
+                </div>
+                <div class="pricing-container">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Responsive Design</li>
+                        <li><i class="fa fa-check"></i> Web Development</li>
+                        <li><i class="fa fa-check"></i> Unlimited Support</li>
+                        <li><i class="fa fa-check"></i> Free Trial version</li>
+                        <li><i class="fa fa-check"></i> Application Development</li>
+                    </ul>
+                </div>
+                <div class="pricing-action">
+                    <a href="contact.html" class="btn btn-medium btn-theme"><i class="fa fa-bolt"></i> Talk to Us</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Advanced Plan (Most Popular) -->
+        <div class="col-md-3">
+            <div class="pricing-box-item hover-scale">
+                <div class="ribbon">Most Popular</div>
+                <div class="pricing-heading">
+                    <h3><strong>Advanced</strong></h3>
+                </div>
+                <div class="pricing-terms">
+                    <h6 class="price" data-year="₹2500.00 / Year" data-month="₹250.00 / Month">₹2500.00 / Year</h6>
+                </div>
+                <div class="pricing-container">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Responsive Design</li>
+                        <li><i class="fa fa-check"></i> Website Development</li>
+                        <li><i class="fa fa-check"></i> Unlimited Support</li>
+                        <li><i class="fa fa-check"></i> Free Trial version</li>
+                        <li><i class="fa fa-check"></i> Application Development</li>
+                    </ul>
+                </div>
+                <div class="pricing-action">
+                    <a href="contact.html" class="btn btn-medium btn-theme"><i class="fa fa-bolt"></i> Talk to Us</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mighty Plan -->
+        <div class="col-md-3">
+            <div class="pricing-box-item hover-scale">
+                <div class="pricing-heading">
+                    <h3><strong>Mighty</strong></h3>
+                </div>
+                <div class="pricing-terms">
+                    <h6 class="price" data-year="₹3000.00 / Year" data-month="₹300.00 / Month">₹3000.00 / Year</h6>
+                </div>
+                <div class="pricing-container">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Responsive Design</li>
+                        <li><i class="fa fa-check"></i> Website Development</li>
+                        <li><i class="fa fa-check"></i> Unlimited Support</li>
+                        <li><i class="fa fa-check"></i> Free Trial version</li>
+                        <li><i class="fa fa-check"></i> Application Development</li>
+                    </ul>
+                </div>
+                <div class="pricing-action">
+                    <a href="contact.html" class="btn btn-medium btn-theme"><i class="fa fa-bolt"></i> Talk to Us</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </div>
+</section>
+
+<!-- Testimonial Section -->
+<section id="testimonials" style="background:#f9f9f9; padding:50px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>What Our Clients Say</h2>
+        <p>Trusted by businesses worldwide for AI-driven solutions</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+            <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner text-center">
+            <div class="item active">
+              <p class="lead">"NextGen2AI transformed our website with a modern AI-optimized design. Highly recommended!"</p>
+              <small><strong>John Doe</strong>, CEO, TechSolutions</small>
+            </div>
+            <div class="item">
+              <p class="lead">"The mobile app developed by NextGen2AI exceeded our expectations. Excellent support!"</p>
+              <small><strong>Jane Smith</strong>, Product Manager, AppCorp</small>
+            </div>
+            <div class="item">
+              <p class="lead">"Professional team, innovative UI/UX designs, and timely delivery. Truly impressive."</p>
+              <small><strong>Michael Lee</strong>, Founder, CreativeWorks</small>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#testimonial-carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#testimonial-carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="widget">
+                <h5 class="widgetheading">Our Contact</h5>
+                <address>
+                <strong>NextGen2AI</strong><br>
+                No-10 Aviansh Building Kundalahalli Gate,
+                <br>Vartur Marathahalli main road, Bangalore-560037.</address>
+                <p>
+                    <i class="fa fa-phone"></i> +91-9337021430 <br>
+                    <i class="fa fa-envelope"></i> nextgen2AI.com
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="widget">
+                <h5 class="widgetheading">Quick Links</h5>
+                <ul class="link-list">
+                    <li><a href="#">Latest Events</a></li>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="widget">
+                <h5 class="widgetheading">Latest posts</h5>
+                <ul class="link-list">
+                    <li><a href="#">Elon Musk's X takes down political posts of AAP, Jagan Reddy's party on EC order, but says we don't agree</a></li>
+                    <li><a href="#">Senior Citizen Savings Scheme (SCSS) - Interest Rate 2024</a></li>
+                    <li><a href="#">Vande Bharat Express | How it competes on domestic routes</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="widget">
+                <h5 class="widgetheading">Recent News</h5>
+                <ul class="link-list">
+                    <li><a href="#">Meta debuts new generation of AI chip</a></li>
+                    <li><a href="#">OpenAI makes GPT-4 Turbo with Vision API generally available</a></li>
+                    <li><a href="#">Microsoft: China plans to disrupt elections with AI-generated disinformation</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="sub-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="copyright">
+                    <p>&copy; All right reserved. By NextGen2AI</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <ul class="social-network">
+                    <li><a href="https://www.facebook.com/people/Nextgen2Ai/61576962336883/" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://x.com/nextgen2ai" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/next-gen2ai-342759369/" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-<!-- javascript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
+
+<!-- JS -->
 <script src="js/jquery.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -255,5 +368,20 @@
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
+
+<script>
+// Monthly/Yearly toggle functionality
+document.getElementById('pricingToggle').addEventListener('change', function() {
+    let prices = document.querySelectorAll('.price');
+    prices.forEach(price => {
+        if(this.checked) {
+            price.textContent = price.getAttribute('data-month');
+        } else {
+            price.textContent = price.getAttribute('data-year');
+        }
+    });
+});
+</script>
+
 </body>
 </html>
