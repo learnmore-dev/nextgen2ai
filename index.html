@@ -1,94 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>NextGen2AI</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="Secure AI & Web Solutions for Modern Businesses" />
-<meta name="author" content="NextGen2AI" />
+  <meta charset="utf-8">
+  <title>NextGen2AI</title>
 
-<!-- css -->
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="css/jcarousel.css" rel="stylesheet" />
-<link href="css/flexslider.css" rel="stylesheet" />
-<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet"> 
-<link href="css/style.css" rel="stylesheet" />
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Responsive Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Secure AI & Web Solutions for Modern Businesses" />
+  <meta name="author" content="NextGen2AI" />
 
-<style>
-/* Hover effect for service cards */
-.service-card {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  padding: 20px;
-  text-align: center;
-  margin-bottom: 30px;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-.service-card i {
-  color: #4CAF50;
-  margin-bottom: 15px;
-}
-.service-card h3 {
-  margin-bottom: 10px;
-}
-.service-card p {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 15px;
-}
-.service-card .btn {
-  font-size: 14px;
-  padding: 8px 20px;
-}
-.service-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-}
+  <!-- ================= CSS FILES ================= -->
 
-/* WhatsApp Floating Button */
-.whatsapp-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #25D366;
-  color: white;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  font-size: 30px;
-  line-height: 60px;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
-  z-index: 1000;
-}
-.whatsapp-btn:hover {
-  background: #1ebe57;
-}
-</style>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+  <!-- Plugins -->
+  <link rel="stylesheet" href="css/fancybox/jquery.fancybox.css" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+  <link rel="stylesheet" href="css/flexslider.css" />
+
+  <!-- Main Style -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+
+  <!-- ================= CUSTOM STYLES ================= -->
+  <style>
+    /* Hover effect for service cards */
+    .service-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 30px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    /* WhatsApp Floating Button */
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: #fff;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      font-size: 30px;
+      line-height: 60px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+      z-index: 1000;
+    }
+    .whatsapp-btn:hover {
+      background: #1ebe57;
+    }
+  </style>
 </head>
-
-<body>
+  <body>
 <div id="wrapper">
-  <!-- Header -->
-  <!-- start header -->
-<!-- start header -->
+
+<!-- ================= HEADER ================= -->
 <header>
   <section class="contactInfo">
     <div class="container">
       <div class="col-md-12">
         <div class="contact-area">
           <ul>
-            <li><i class="fa fa-phone"></i> <a href="tel:+919538431415">+91-9538431415</a></li>
-
-            <li><i class="fa fa-globe"></i> <a href="https://office@nextgen2ai.com">office@nextgen2ai.com</a></li>
+            <li>
+              <i class="fa fa-phone"></i>
+              <a href="tel:+919538431415">+91-9538431415</a>
+            </li>
+            <li>
+              <i class="fa fa-envelope"></i>
+              <a href="mailto:office@nextgen2ai.com">office@nextgen2ai.com</a>
+            </li>
           </ul>
         </div>
       </div>
     </div>
   </section>
+
 
   <div class="navbar navbar-default navbar-static-top">
     <div class="container">
@@ -103,22 +106,25 @@
         </a>
       </div>
 
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
+     <div class="navbar-collapse collapse">
+  <ul class="nav navbar-nav">
+    <li class="active"><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="pricing.html">Pricing</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
     </div>
   </div>
 </header>
 <!-- end header -->
 
-<!-- end header -->
+  <!-- Hero CTA Section -->
+
+<!-- Hero CTA Section -->
 <section class="hero-cta">
   <div class="container">
     <div class="row">
@@ -132,11 +138,11 @@
       <div class="col-md-5">
         <div class="cta-form">
           <h4>Get Free Consultation</h4>
-          <form>
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <input type="tel" placeholder="Phone" required>
-            <button type="submit">Submit</button>
+          <form action="contact.html" method="get">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Phone" required>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
       </div>
@@ -144,7 +150,6 @@
     </div>
   </div>
 </section>
-
 
   <!-- Slider -->
   <section id="featured">
@@ -158,9 +163,10 @@
             
 
             <p>Secure AI & Web Solutions for Modern Businesses</p>
-            <a href="contact.html" class="btn btn-theme btn-lg">Get Free Consultation</a>
+            <a href="contact.html" class="btn btn-primary btn-lg">
+  Get Free Consultation
+</a>
 
-           <a href="#contact" class="btn btn-primary">Get Free Consultation</a>
 <a href="https://wa.me/919538431415" target="_blank" class="btn btn-success">
   Talk to Our Expert
 </a>
@@ -171,10 +177,7 @@
           <div class="flex-caption">
             <h3>We Build Secure AI & Web Solutions</h3>
             <p>Secure AI & Web Solutions for Modern Businesses</p>
-          <a href="#contact" class="btn btn-primary">Get Free Consultation</a>
-<a href="https://wa.me/919538431415" target="_blank" class="btn btn-success">
-  Talk to Our Expert
-</a>
+     
           </div>
         </li>
         <li>
@@ -193,58 +196,87 @@
   </section>
 
   <!-- About Section -->
-  <section id="content">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <img src="img/1.jpg" alt="About Us" />
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div>
-            <h2>Who We Are</h2>
-            <p>NextGen2AI is a collective of innovators driven by curiosity and collaboration. We champion ethical AI, striving to harness its power for positive societal impact. With diversity as our strength, we envision a future where AI serves humanity's highest ideals.</p>
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-4">
-                <ul class="list list-3">
-                  <li>Designing</li>
-                  <li>Development</li>
-                  <li>Web Services</li>
-                  <li>Hosting</li>
-                </ul>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4">
-                <ul class="list list-3">
-                  <li>Copy Writing</li>
-                  <li>E-Commerce</li>
-                  <li>SAP</li>
-                  <li>Testing</li>
-                </ul>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4">
-                <ul class="list list-3">
-                  <li>Mobile Apps</li>
-                  <li>Database</li>
-                  <li>User Experience</li>
-                  <li>Product</li>
-                </ul>
-              </div>
+ <section id="content">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <img 
+          src="img/1.jpg" 
+          alt="About NextGen2AI Company" 
+          class="img-responsive"
+        />
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <div>
+          <h2>Who We Are</h2>
+          <p class="lead">
+            Empowering businesses with ethical AI and secure digital solutions
+          </p>
+          <p>
+            NextGen2AI is a collective of innovators driven by curiosity and collaboration.
+            We champion ethical AI, striving to harness its power for positive societal impact.
+            With diversity as our strength, we envision a future where AI serves humanity's highest ideals.
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <ul class="list list-3">
+                <li>Designing</li>
+                <li>Development</li>
+                <li>Web Services</li>
+                <li>Hosting</li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <ul class="list list-3">
+                <li>Copywriting</li>
+                <li>E-Commerce</li>
+                <li>SAP</li>
+                <li>Testing</li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <ul class="list list-3">
+                <li>Mobile Apps</li>
+                <li>Database</li>
+                <li>User Experience</li>
+                <li>Product</li>
+              </ul>
             </div>
           </div>
+
         </div>
       </div>
+
     </div>
-  </section>
+  </div>
+</section>
+
 <section class="why-us">
   <div class="container text-center">
     <h2>Why Choose NextGen2AI?</h2>
 
     <div class="row">
-      <div class="col-md-4">✔ Ethical AI</div>
-      <div class="col-md-4">✔ Secure Systems</div>
-      <div class="col-md-4">✔ Expert Team</div>
+      <div class="col-md-4">
+        <i class="fa fa-check-circle"></i> Ethical AI
+      </div>
+      <div class="col-md-4">
+        <i class="fa fa-check-circle"></i> Secure Systems
+      </div>
+      <div class="col-md-4">
+        <i class="fa fa-check-circle"></i> Expert Team
+      </div>
     </div>
   </div>
 </section>
+
+          
+
+   
 
   <!-- Services Section with Cards -->
   <section id="service">
@@ -551,7 +583,7 @@
       </div>
 
       <div class="col-md-6">
-        <img src="img/about/why-us.png" class="img-responsive" alt="Why Trust Us">
+        <img src="img/about/why-us.png.jpg" class="img-responsive" alt="Why Trust Us">
       </div>
 
     </div>
@@ -568,18 +600,18 @@
 
     <div class="logo-slider">
       <div class="logo-track">
-        <img src="img/partners/client1.png" alt="">
+       
         <img src="img/partners/client2.png" alt="">
         <img src="img/partners/client3.png" alt="">
         <img src="img/partners/client4.png" alt="">
-        <img src="img/partners/client5.png" alt="">
+       
 
         <!-- Duplicate for infinite scroll -->
-        <img src="img/partners/client1.png" alt="">
+        
         <img src="img/partners/client2.png" alt="">
         <img src="img/partners/client3.png" alt="">
         <img src="img/partners/client4.png" alt="">
-        <img src="img/partners/client5.png" alt="">
+       
       </div>
     </div>
 
@@ -592,44 +624,12 @@
 
 
 
-  <!-- Contact Section with Google Form -->
-  <!-- Quick Enquiry Modal -->
-<div id="quickEnquiryModal" class="modal fade" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content enquiry-box">
 
-      <button type="button" class="close enquiry-close" data-dismiss="modal">&times;</button>
 
-      <h3 class="text-center">Quick Enquiry</h3>
 
-      <form>
-        <input type="text" class="form-control" placeholder="Name" required>
-        <input type="email" class="form-control" placeholder="Email" required>
-        <input type="tel" class="form-control" placeholder="Phone Number" required>
+      
 
-        <select class="form-control" required>
-          <option value="">Select Course</option>
-          <option>Web Development</option>
-          <option>AI & ML</option>
-          <option>Python</option>
-          <option>Mobile App Development</option>
-        </select>
-
-        <select class="form-control" required>
-          <option value="">Select Location</option>
-          <option>Bangalore</option>
-          <option>Hyderabad</option>
-          <option>Online</option>
-        </select>
-
-        <textarea class="form-control" rows="3" placeholder="Message (please don’t paste links)"></textarea>
-
-        <button type="submit" class="btn btn-primary btn-block">Submit</button>
-      </form>
-
-    </div>
-  </div>
-</div>
+        
 
 
 
@@ -643,16 +643,20 @@
     <div class="row team-row">
 
       <!-- 1. Abhishek Kumar -->
-      <div class="col-md-4 team-card">
-        <div class="team-member">
-          <div class="team-img-wrapper">
-            <img src="img/team/abhishek.jpg" alt="Abhishek Kumar">
-            <div class="overlay"><p>Software Developer</p></div>
-          </div>
-          <h4>KUMAR ABHISHEK</h4>
-          <span class="role-badge">Software Developer</span>
-        </div>
+     <!-- 1. Kumar Abhishek -->
+<div class="col-md-4 team-card">
+  <div class="team-member">
+    <div class="team-img-wrapper">
+      <img src="img/team/abhishek.jpg.jpeg" alt="Kumar Abhishek">
+      <div class="overlay">
+        <p>Full Stack Developer</p>
       </div>
+    </div>
+    <h4>KUMAR ABHISHEK</h4>
+    <span class="role-badge">Full Stack Developer</span>
+  </div>
+</div>
+
 
       <!-- 2. Bhavana D M -->
       <div class="col-md-4 team-card">
@@ -666,17 +670,7 @@
         </div>
       </div>
 
-      <!-- 3. Althaf -->
-      <div class="col-md-4 team-card">
-        <div class="team-member">
-          <div class="team-img-wrapper">
-            <img src="img/team/althaf.jpg" alt="Althaf">
-            <div class="overlay"><p>Backend Developer</p></div>
-          </div>
-          <h4>ALTHAF</h4>
-          <span class="role-badge">Backend Developer</span>
-        </div>
-      </div>
+      
 
       <!-- 4. Kavin Kumar N -->
       <div class="col-md-4 team-card">
@@ -702,19 +696,7 @@
         </div>
       </div>
 
-      <!-- 6. New Developer 1 -->
-      <div class="col-md-4 team-card">
-        <div class="team-member">
-          <div class="team-img-wrapper">
-            <img src="img/team/dev1.jpg" alt="New Developer">
-            <div class="overlay"><p>Frontend Developer</p></div>
-          </div>
-          <h4>ADNAN MOHAMMED</h4>
-          <span class="role-badge">Frontend Developer</span>
-        </div>
-      </div>
-
-      <!-- 7. New Developer 2 -->
+      
   
   </div>
 </section>
@@ -862,20 +844,7 @@
         </div>
       </div>
 
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#faqAccordion" href="#faq3">
-              How secure are your platforms?
-            </a>
-          </h4>
-        </div>
-        <div id="faq3" class="panel-collapse collapse">
-          <div class="panel-body">
-            Security is our priority. We implement AI-powered threat detection,
-            encryption, and compliance-ready architectures.
-          </div>
-        </div>
+      
       </div>
 
       <div class="panel panel-default">
@@ -896,24 +865,7 @@
     </div>
   </div>
 </section>
-<script>
-const processCards = document.querySelectorAll('.process-card');
 
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.style.opacity = 1;
-      entry.target.style.transform = 'translateY(0)';
-    }
-  });
-}, { threshold: 0.2 });
-
-processCards.forEach(card => {
-  card.style.opacity = 0;
-  card.style.transform = 'translateY(30px)';
-  observer.observe(card);
-});
-</script>
 
 
       
@@ -1000,29 +952,10 @@ processCards.forEach(card => {
 <a href="tel:+919538431415" class="call-btn">
   <i class="fa fa-phone"></i>
 </a>
-<!-- Enquiry Form Popup Modal -->
-<div id="enquiryModal" class="modal fade" tabindex="-1" role="dialog">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
 
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Enquiry Form</h4>
-      </div>
 
-      <div class="modal-body">
-        <iframe 
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfe6H7XQOCoPJJl4PjaIJFFr30SFxsjB_CbsoJlPUNH-Fys0g/viewform?embedded=true"
-          width="100%" 
-          height="600" 
-          frameborder="0">
-          Loading…
-        </iframe>
-      </div>
 
-    </div>
-  </div>
-</div>
+      
 
 
 <!-- javascript -->
@@ -1036,100 +969,19 @@ processCards.forEach(card => {
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
-<script src="js/owl-carousel/owl.carousel.js"></script>
-<!-- ENQUIRY OVERLAY -->
-<div id="enquiryOverlay"></div>
-
-<!-- QUICK ENQUIRY POPUP -->
-<div id="quickEnquiryBox">
-  <span id="closeEnquiry">&times;</span>
-
-  <h3>Quick Enquiry</h3>
-
-  <form>
-    <input type="text" placeholder="Name" required>
-    <input type="email" placeholder="Email" required>
-    <input type="tel" placeholder="Phone Number" required>
-
-    <select required>
-      <option value="">Select course</option>
-      <option>Web Development</option>
-      <option>AI & ML</option>
-      <option>Python</option>
-      <option>Mobile App Development</option>
-    </select>
-
-    <select required>
-      <option value="">Select Location</option>
-      <option>Bangalore</option>
-      <option>Hyderabad</option>
-      <option>Online</option>
-    </select>
-
-    <textarea rows="3" placeholder="Message (please don’t paste links)"></textarea>
-
-    <button type="submit">Submit</button>
-  </form>
-</div>
-<script>
-  window.onload = function () {
-    document.getElementById("enquiryOverlay").style.display = "block";
-    document.getElementById("quickEnquiryBox").style.display = "block";
-  };
-
-  document.getElementById("closeEnquiry").onclick = function () {
-    document.getElementById("enquiryOverlay").style.display = "none";
-    document.getElementById("quickEnquiryBox").style.display = "none";
-  };
-
-  document.getElementById("enquiryOverlay").onclick = function () {
-    document.getElementById("enquiryOverlay").style.display = "none";
-    document.getElementById("quickEnquiryBox").style.display = "none";
-  };
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 
 
-<script>
-const counters = document.querySelectorAll('.counter');
-let started = false;
 
-function startCount() {
-  if (started) return;
 
-  counters.forEach(counter => {
-    const target = +counter.getAttribute('data-target');
-    let count = 0;
-    const speed = 200;
+  
 
-    const updateCount = () => {
-      const increment = target / speed;
-      count += increment;
 
-      if (count < target) {
-        counter.innerText = Math.ceil(count);
-        setTimeout(updateCount, 20);
-      } else {
-        counter.innerText = target + "+";
-      }
-    };
 
-    updateCount();
-  });
 
-  started = true;
-}
 
-window.addEventListener('scroll', () => {
-  const metricsSection = document.getElementById('metrics');
-  const sectionTop = metricsSection.getBoundingClientRect().top;
-  const screenHeight = window.innerHeight;
 
-  if (sectionTop < screenHeight - 100) {
-    startCount();
-  }
-});
-</script>
 <script>
 let slideIndex = 0;
 const slides = document.querySelectorAll(".testimonial-slide");
@@ -1157,7 +1009,7 @@ dots.forEach((dot, i) => {
 setInterval(autoSlide, 5000);
 </script>
 <script>
-const counters = document.querySelectorAll('.counter');
+let counters = document.querySelectorAll('.counter');
 let started = false;
 
 function runCounters() {
@@ -1173,7 +1025,7 @@ function runCounters() {
         counter.innerText = Math.ceil(count);
         setTimeout(updateCount, 20);
       } else {
-        counter.innerText = target + "+";
+        counter.innerText = target;
       }
     };
     updateCount();
@@ -1182,6 +1034,7 @@ function runCounters() {
 
 window.addEventListener('scroll', () => {
   const statsSection = document.getElementById('stats');
+  if (!statsSection) return;
   const sectionTop = statsSection.getBoundingClientRect().top;
   const screenHeight = window.innerHeight;
 
@@ -1190,123 +1043,100 @@ window.addEventListener('scroll', () => {
     started = true;
   }
 });
-</script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
 
-  const counters = document.querySelectorAll(".counter");
-  let started = false;
 
-  function startCounters() {
-    counters.forEach(counter => {
-      const target = +counter.getAttribute("data-target");
-      let count = 0;
-      const increment = target / 80;
 
-      const update = () => {
-        count += increment;
-        if (count < target) {
-          counter.innerText = Math.ceil(count);
-          requestAnimationFrame(update);
-        } else {
-          counter.innerText = target + "+";
-        }
-      };
+   
+   
 
-      update();
-    });
-  }
-
-  function checkScroll() {
-    const stats = document.getElementById("stats");
-    if (!stats) return;
-
-    const top = stats.getBoundingClientRect().top;
-    const screenHeight = window.innerHeight;
-
-    if (top < screenHeight - 100 && !started) {
-      startCounters();
-      started = true;
-    }
-  }
-
-  window.addEventListener("scroll", checkScroll);
-  checkScroll(); // run once in case already visible
-});
 </script>
 
-<script>
-const processCards = document.querySelectorAll('.process-card');
 
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.style.opacity = 1;
-      entry.target.style.transform = 'translateY(0)';
+
+
+
+
+
+
+
+<!-- Enquiry Modal -->
+<div id="enquiryModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>Quick Enquiry</h3>
+    <form id="enquiryFormModal">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <select name="country" required>
+        <option value="">Select Country</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="Other">Other</option>
+      </select>
+      <input type="tel" name="phone" placeholder="Phone Number (with country code)" required>
+      <select name="course" required>
+        <option value="">Select Course</option>
+        <option value="Web Development">Web Development</option>
+        <option value="Python">Python</option>
+        <option value="Data Science">Data Science</option>
+      </select>
+      <select name="location" required>
+        <option value="">Select Location</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Other">Other</option>
+      </select>
+      <textarea name="message" placeholder="Message (please don’t paste links)" required></textarea>
+      <button type="submit">Submit</button>
+      <div id="modalFormMessage" style="margin-top:10px;"></div>
+    </form>
+  </div>
+</div>
+
+<!-- Trigger Button -->
+<button id="openEnquiry" class="btn btn-primary">Enquire Now</button>
+
+<script>
+$(document).ready(function(){
+
+  // Open modal automatically on page load
+  $("#enquiryModal").fadeIn();
+
+  // Close modal when clicking the X
+  $(".close").click(function(){
+    $("#enquiryModal").fadeOut();
+  });
+
+  // Click outside modal closes it
+  $(window).click(function(event){
+    if(event.target.id === "enquiryModal"){
+      $("#enquiryModal").fadeOut();
     }
   });
-}, { threshold: 0.2 });
 
-processCards.forEach(card => {
-  card.style.opacity = 0;
-  card.style.transform = 'translateY(30px)';
-  observer.observe(card);
+  // Form submission
+  $("#enquiryFormModal").on("submit", function(e){
+    e.preventDefault();
+    var data = $(this).serialize();
+
+    $.ajax({
+      url: "send_enquiry.php", // your backend endpoint
+      type: "POST",
+      data: data,
+      success: function(){
+        $("#modalFormMessage").css("color","green").text("Thank you! Your enquiry has been submitted.");
+        $("#enquiryFormModal")[0].reset();
+        $("#enquiryModal").fadeOut();
+      },
+      error: function(){
+        $("#modalFormMessage").css("color","red").text("Oops! Something went wrong. Try again.");
+      }
+    });
+  });
+
 });
 </script>
 
-<!-- Our Team Dynamic JS -->
-<script>
-const teamMapping = {
-  "Web Development": [
-    {name: "Bhavana D M", role: "Full Stack Developer", img: "img/team/bhavana.jpg"},
-    {name: "Rajesh K", role: "Backend Developer", img: "img/team/rajesh.jpg"},
-    {name: "Sneha P", role: "UI / UX Designer", img: "img/team/sneha.jpg"}
-  ],
-  "AI & ML": [
-    {name: "Arjun S", role: "AI Engineer", img: "img/team/arjun.jpg"},
-    {name: "Neha M", role: "Data Scientist", img: "img/team/neha.jpg"},
-    {name: "Kiran R", role: "ML Developer", img: "img/team/kiran.jpg"}
-  ],
-  "Python": [
-    {name: "Bhavana D M", role: "Python Developer", img: "img/team/bhavana.jpg"},
-    {name: "Rajesh K", role: "Backend Developer", img: "img/team/rajesh.jpg"},
-    {name: "Sneha P", role: "UI / UX Designer", img: "img/team/sneha.jpg"}
-  ],
-  "Mobile App Development": [
-    {name: "Arjun S", role: "Android Developer", img: "img/team/arjun.jpg"},
-    {name: "Neha M", role: "iOS Developer", img: "img/team/neha.jpg"},
-    {name: "Kiran R", role: "UI / UX Designer", img: "img/team/kiran.jpg"}
-  ]
-};
-
-const enquiryForm = document.querySelector('#quickEnquiryModal form');
-const teamRow = document.querySelector('.team-row');
-
-enquiryForm.addEventListener('change', (e) => {
-  if(e.target.tagName === 'SELECT') {
-    const selectedCourse = e.target.value;
-    const members = teamMapping[selectedCourse];
-    if(members) {
-      const html = members.map(member => `
-        <div class="col-md-4 team-card">
-          <div class="team-member">
-            <img src="${member.img}" alt="${member.name}">
-            <h4>${member.name}</h4>
-            <p>${member.role}</p>
-          </div>
-        </div>
-      `).join('');
-      teamRow.innerHTML = html;
-    }
-  }
-});
-</script>
-
-<!-- Sticky Book Consultation Button -->
-<!-- Sticky Book Consultation Button -->
-
-
-<div id="wrapper">
 
 
 </body>
